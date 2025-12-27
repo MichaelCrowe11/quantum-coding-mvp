@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: quantum-coding-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python api/quantum_api.py
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: USE_QUANTUM_HARDWARE
+        value: "false"
+    plan: free

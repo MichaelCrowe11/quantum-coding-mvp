@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+api_output.log
+
+# Credentials (IMPORTANT!)
+.env
+*.pem
+*.key
+credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
